@@ -11,7 +11,7 @@ namespace ConvertXlsxToSQLite
             // ограниечения бесплатной версии: 5 листов и 150 строк
             //SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
             SpreadsheetInfo.SetLicense("ERDC-HMNA-Q3HP-01TI");
-            ExcelFile workbook = ExcelFile.Load(@"D:\dbase\Verenich\base150.xlsx");
+            ExcelFile workbook = ExcelFile.Load(@"D:\dbase\Verenich\baseNew.xlsx");
             ExcelWorksheet sheet = workbook.Worksheets[0];
             int i, address, number, i11, i12, i21, i22;
             Console.WriteLine("");
